@@ -132,3 +132,4 @@ dmypy.json
 .vscode/settings.json
 json/sg/themes.json
 src/test/
+json/pws/pws.json
