@@ -49,3 +49,4 @@ def genpassword(ID: str = None, l: int = 8, punc: bool = True) -> dict:
 
 
 d = initialize(pwspath)
+gpw = genpassword
