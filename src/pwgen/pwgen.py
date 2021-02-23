@@ -45,7 +45,7 @@ def genpassword(ID: str = None, l: int = 8, punc: bool = True) -> dict:
 
         chars.extend(punctuation)
 
-    return {ID: "".join([choice(chars) for i in range(l)])}
+    return {ID: "".join([choice(chars) for _ in range(l)])}
 
 
 d = initialize(pwspath)
